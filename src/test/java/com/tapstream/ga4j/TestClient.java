@@ -55,10 +55,6 @@ public class TestClient {
         String param_keys[] = new String[]{"utmwv", "utms", "utmn", "utmhn", "utmcs", "utmsr", "utmvp", "utmsc", "utmul",
                             "utmje", "utmfl", "utmdt", "utmhid", "utmr", "utmp", "utmac", "utmcc", "utmu"};
 
-        for(String k: param_keys){
-            System.out.println(k + ": " + params.get(k));
-        }
-        
         assertEquals(params.get("utmwv"), "5.3.0");
         assertEquals(params.get("utms"), "0");
         assertEquals(params.get("utmhn"), utmhn);
