@@ -4,7 +4,7 @@
 	<groupId>com.tapstream</groupId>
 	<artifactId>ga4j</artifactId>
 	<packaging>jar</packaging>
-	<version>0.1</version>
+	<version>0.2-SNAPSHOT</version>
 
 	<name>${project.groupId}:${project.artifactId}</name>
 	<description>Java SDK for Google Analytics</description>
@@ -26,7 +26,7 @@
 		<url>git@github.com:tapstream/ga4j.git</url>
 		<connection>scm:git:git@github.com:tapstream/ga4j.git</connection>
 		<developerConnection>scm:git:git@github.com:tapstream/ga4j.git</developerConnection>
-	  <tag>0.1</tag>
+	  <tag>HEAD</tag>
   </scm>
 
 	<developers>
